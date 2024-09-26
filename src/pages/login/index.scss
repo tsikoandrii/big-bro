@@ -1,0 +1,11 @@
+.login-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  &-logotype {
+    width: 300px;
+    margin-top: 75px;
+    margin-bottom: 48px;
+  }
+}

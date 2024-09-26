@@ -1,0 +1,29 @@
+@import './reset';
+@import './typography';
+
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+  font-family: 'Inter', sans-serif;
+  font-size: 16px;
+}
+
+body {
+  background: #F4F4F4;
+}
+
+button, textarea, input {
+  font-family: 'Inter', sans-serif;
+}
+
+.container {
+  padding: 0 14px;
+}
+
+.window {
+  width: 100%;
+  max-width: 500px;
+  margin: 0 auto;
+}

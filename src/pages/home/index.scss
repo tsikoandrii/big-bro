@@ -1,0 +1,7 @@
+.masters {
+  padding: 16px 0;
+
+  .master:not(:last-child) {
+    margin-bottom: 8px;
+  }
+}

@@ -1,0 +1,17 @@
+.price-items {
+  margin-bottom: 16px;
+
+  .price-item:not(:last-child) {
+    margin-bottom: 8px;
+  }
+  
+  &-create {
+    padding: 12px;
+    font-size: 14px;
+    text-align: center;
+    background: #fff;
+    width: 100%;
+    border: 1px solid #c4c4c4;
+    cursor: pointer;
+  }
+}

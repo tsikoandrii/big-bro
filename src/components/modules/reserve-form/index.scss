@@ -1,0 +1,68 @@
+.reserve-form {
+  background: #fff;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  margin-top: 8px;
+  padding-top: 15px;
+  padding-bottom: 20px;
+
+  &-title {
+    text-align: center;
+    font-size: 17px;
+    font-weight: 500;
+    margin-bottom: 15px;
+  }
+
+  .line-calendar {
+    width: 100%;
+  }
+
+  &-sub {
+    font-size: 15px;
+    font-weight: 400;
+    color: rgb(128, 128, 128);
+    margin-bottom: 10px;
+  }
+
+  &-seats {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    overflow: scroll;
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+
+    &::-webkit-scrollbar {
+      display: none;
+    }
+
+    &:not(:last-child) {
+      margin-bottom: 20px;
+    }
+  }
+
+  &-wrap {
+    padding: 14px 14px 0 14px;
+  }
+}
+
+.seat {
+  color: #000;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 16px;
+  padding: 12px 13px;
+  border-radius: 20px;
+  border: 1px solid #EDEDED;
+  background: #FFF;
+  cursor: pointer;
+  white-space: nowrap;
+  transition: background-color 0.2s ease;
+
+  &:hover {
+    border-color: #FFCB46;
+  }
+  
+  &.active {
+    background: #FFCB46;
+  }
+}

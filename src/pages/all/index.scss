@@ -1,0 +1,8 @@
+.checkouts {
+  padding-top: 32px;
+  padding-bottom: 64px;
+
+  .checkout-card:not(:last-child) {
+    margin-bottom: 16px;
+  }
+}

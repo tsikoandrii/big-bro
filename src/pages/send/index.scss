@@ -1,0 +1,29 @@
+.appointment-form {
+  padding-top: 25px;
+  padding-bottom: 15px;
+  display: flex;
+  flex-direction: column;
+
+  &-title {
+    color: #000;
+    text-align: center;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 14px;
+  }
+
+  .default-input:not(:last-child) {
+    margin-bottom: 8px;
+  }
+
+  &-success {
+    color: #36920B;
+    text-align: center;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    margin-top: 30px;
+  }
+}
